@@ -14,11 +14,12 @@ body h1, .satauri {
 
 .satauri {
     font-size: 14px;
+    margin-bottom: 50px;
 }
 
 .blogLeft-1, .blogLeft-2{
     background-color:#ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
     box-shadow: 1px 1px 11px #ccc;
 }
 
@@ -31,7 +32,7 @@ body h1, .satauri {
 .black  {
     color: rgb(217, 240, 234);
     background-color: black;
-    padding: 3px 7px;  
+    padding: 3px 8px;  
 }
 
 .black.mrgvali{
@@ -52,34 +53,39 @@ body h1, .satauri {
 
 h2 {
     font-size: 20px;
-    padding: 10px;   
+    padding: 3px 13px;
 }
 
 .text {
     font-size: 13px; 
-    padding: 10px;    
+    padding: 3px 13px;
+    /* font-weight: 600;    */
 }
 
 .qveSatari {
     font-size: 16px;
-    padding: 10px;   
+    padding: 3px 13px;
+}
+
+.date{
+    color: rgb(141, 141, 145);
 }
 
 .blogLeft-1-1 {
     font-size: 12px;
     font-weight: 700;
-    padding: 8px;    
+    padding: 13px;    
     border: 1px solid rgb(209, 211, 214);
-    margin: 10px;
+    margin: 13px;
 }
 
 .blogLeft-1-2 {
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 500;
     padding: 5px;    
     margin: 10px;
     position: relative;
-    left: 550px;
+    left: 530px;
 }
 
 .raight {
@@ -95,7 +101,7 @@ h2 {
 
 .blogRaight-1 p{
     font-size: 13px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .posts{
@@ -105,7 +111,7 @@ h2 {
 
 .blogRaight-1{
     background-color:#ffffff;
-    margin-bottom: 60px;
+    margin-bottom: 31px;
     box-shadow: 1px 1px 11px #ccc;
 }
 
@@ -113,6 +119,7 @@ h2 {
     background-color: #f1f1f1;
     /* padding: 10px; */
     box-shadow: 1px 1px 11px #ccc;
+    margin-bottom: 40px;
 }
 
 .blogRaight-2-1{
@@ -125,9 +132,8 @@ h2 {
     background-color:#ffffff;
     border: 1px solid #f1f1f1;
     overflow: hidden; /*გამოაჩინე რაც ჩაეტევა დივში, ფოტო ვერ მოშალა და ტვითონ გაიწელა*/
+    line-height: 17px;
 }
-
-
 .blogRaight-2-2 img{
     width: 45px;
     vertical-align: middle;
@@ -144,3 +150,40 @@ h2 {
     padding: 10px;
 }
 
+.tags{
+    font-size: 18px;  
+}
+
+.blogRaight-3 {
+    background-color: #f1f1f1;
+    /* padding: 10px; */
+    box-shadow: 1px 1px 11px #ccc;    
+}
+
+.blogRaight-3-1 {
+    padding: 1px;
+    padding-left: 15px;
+}
+
+.blogRaight-3-2 {    
+    padding: 18px;
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.blogRaight-3-2 p {  
+    margin-bottom: 20px;
+}
+
+.blogRaight-3-2 span {  
+    font-size: 11px;  
+    background-color: #f1f1f1;
+    padding: 4px;
+    padding-left: 5px;
+    margin: 3px;   
+}
+
+.blogRaight-3-2 .black-2{
+    color: rgb(217, 240, 234);
+    background-color: black;
+}
